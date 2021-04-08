@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<office:document-content xmlns:dom="http://www.w3.org/2001/xml-events"
+                         xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0"
+                         xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0"
+                         xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0"
+                         xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0"
+                         xmlns:smil="urn:oasis:names:tc:opendocument:xmlns:smil-compatible:1.0"
+                         xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0"
+                         xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0"
+                         xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0"
+                         xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0"
+                         xmlns:xlink="http://www.w3.org/1999/xlink"
+                         xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0">
+    <office:automatic-styles>
+        <style:style style:family="drawing-page" style:name="a585">
+            <style:drawing-page-properties draw:fill="bitmap" draw:fill-image-name="a584" style:repeat="stretch"
+                                           presentation:visibility="visible" draw:background-size="border"
+                                           presentation:background-objects-visible="true"
+                                           presentation:background-visible="true" presentation:display-header="false"
+                                           presentation:display-footer="false" presentation:display-page-number="false"
+                                           presentation:display-date-time="false"/>
+        </style:style>
+        <style:style style:family="text" style:name="a586">
+            <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#262626"
+                                   style:text-line-through-type="none" style:text-line-through-style="none"
+                                   style:text-line-through-width="auto" style:text-line-through-color="font-color"
+                                   style:text-position="0% 100%" fo:font-family="Garamond"
+                                   style:font-family-asian="方正舒体" style:font-pitch-asian="variable"
+                                   fo:font-size="0.75in" style:font-size-asian="0.75in" style:font-size-complex="0.75in"
+                                   fo:letter-spacing="0in" fo:language="en" style:language-asian="zh" fo:country="US"
+                                   style:country-asian="CN" fo:font-style="normal" style:font-style-asian="normal"
+                                   style:font-style-complex="normal" style:text-underline-type="none"
+                                   style:text-underline-style="none" style:text-underline-width="auto"
+                                   style:text-underline-color="font-color" fo:font-weight="normal"
+                                   style:font-weight-asian="normal" style:font-weight-complex="normal"
+                                   style:text-underline-mode="continuous" style:letter-kerning="true"/>
+        </style:style>
+        <style:style style:family="text" style:name="a587">
+            <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#262626"
+                                   style:text-line-through-type="none" style:text-line-through-style="none"
+                                   style:text-line-through-width="auto" style:text-line-through-color="font-color"
+                                   style:text-position="0% 100%" fo:font-family="Garamond"
+                                   style:font-family-asian="方正舒体" style:font-pitch-asian="variable"
+                                   fo:font-size="0.75in" style:font-size-asian="0.75in" style:font-size-complex="0.75in"
+                                   fo:letter-spacing="0in" fo:language="en" style:language-asian="zh" fo:country="US"
+                                   style:country-asian="CN" fo:font-style="normal" style:font-style-asian="normal"
+                                   style:font-style-complex="normal" style:text-underline-type="none"
+                                   style:text-underline-style="none" style:text-underline-width="auto"
+                                   style:text-underline-color="font-color" fo:font-weight="normal"
+                                   style:font-weight-asian="normal" style:font-weight-complex="normal"
+                                   style:text-underline-mode="continuous" style:letter-kerning="true"/>
+        </style:style>
+        <style:style style:family="paragraph" style:name="a588">
+            <style:paragraph-properties fo:line-height="100%" fo:text-align="center" style:tab-stop-distance="0.5in"
+                                        fo:margin-left="0in" fo:margin-right="0in" fo:text-indent="0in"
+                                        fo:margin-top="0in" fo:margin-bottom="0in" style:punctuation-wrap="hanging"
+                                        style:vertical-align="auto" style:writing-mode="lr-tb">
+                <style:tab-stops/>
+            </style:paragraph-properties>
+            <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#000000"
+                                   style:text-line-through-type="none" style:text-line-through-style="none"
+                                   style:text-line-through-width="auto" style:text-line-through-color="font-color"
+                                   style:text-position="0% 100%" fo:font-size="0.25in" style:font-size-asian="0.25in"
+                                   style:font-size-complex="0.25in" fo:letter-spacing="0in" fo:font-style="normal"
+                                   style:font-style-asian="normal" style:font-style-complex="normal"
+                                   style:text-underline-type="none" style:text-underline-style="none"
+                                   style:text-underline-width="auto" style:text-underline-color="font-color"
+                                   fo:font-weight="normal" style:font-weight-asian="normal"
+                                   style:font-weight-complex="normal" style:text-underline-mode="continuous"
+                                   style:letter-kerning="false"/>
+        </style:style>
+        <style:style style:family="presentation" style:name="a589">
+            <style:graphic-properties fo:wrap-option="wrap" fo:padding-top="0.05in" fo:padding-bottom="0.05in"
+                                      fo:padding-left="0.1in" fo:padding-right="0.1in"
+                                      draw:textarea-vertical-align="bottom" draw:textarea-horizontal-align="center"
+                                      draw:fill="none" draw:stroke="none" draw:auto-grow-width="false"
+                                      draw:auto-grow-height="false"/>
+            <style:paragraph-properties style:font-independent-line-spacing="true" style:writing-mode="lr-tb"/>
+        </style:style>
+    </office:automatic-styles>
+    <office:body>
+        <office:presentation>
+            <draw:page draw:name="Slide1" draw:style-name="a585" draw:master-page-name="Master1-Layout1-title-标题幻灯片"
+                       presentation:presentation-page-layout-name="Master1-PPL1" draw:id="Slide-256">
+                <draw:frame draw:id="id132" presentation:style-name="a589" draw:name="标题 1" svg:x="2.94444in"
+                            svg:y="2.04629in" svg:width="7.45371in" svg:height="1.65741in" presentation:class="title"
+                            presentation:placeholder="false">
+                    <draw:text-box>
+                        <text:p text:style-name="a588" text:class-names="" text:cond-style-name="">
+                            <text:span text:style-name="a586" text:class-names="">theme</text:span>
+                            <text:span text:style-name="a587" text:class-names=""/>
+                        </text:p>
+                    </draw:text-box>
+                    <svg:title/>
+                    <svg:desc/>
+                </draw:frame>
+            </draw:page>
+            <presentation:settings/>
+        </office:presentation>
+    </office:body>
+</office:document-content>
