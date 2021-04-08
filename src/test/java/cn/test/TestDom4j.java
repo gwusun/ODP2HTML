@@ -26,36 +26,36 @@ public class TestDom4j {
             SAXReader saxReader = new SAXReader();
             document = saxReader.read(new File("ppts/word/content.xml")); // 读取XML文件,获得document对象
             Element root = document.getRootElement();
-            for (Iterator i = root.elementIterator(); i.hasNext();) {
-                Element el = (Element) i.next();
-                if(el.getName().equals( XMLEnum.AUTOMATIC_STYLE.getValue())){
-                    for(Iterator styleIterator=el.elementIterator();styleIterator.hasNext();)
-                    {
+            for (Iterator<Element> i = root.elementIterator(); i.hasNext(); ) {
+                Element el = i.next();
+                if (el.getName().equals(XMLEnum.AUTOMATIC_STYLE.getValue())) {
+                    for (Iterator<Element> styleIterator = el.elementIterator(); styleIterator.hasNext(); ) {
 
-                      Element style=  (Element)styleIterator.next();
+                        Element style = styleIterator.next();
 
                         Attribute name = style.attribute("name");
-                        int f=1;
+                        int f = 1;
                     }
                 }
 //                el.getNamespacePrefix()   office
 //                el.getName()              automatic-styles
 //                el.getNamespaceURI()      urn:oasis:names:tc:opendocument:xmlns:office:1.0
 //                el.getNodeTypeName()      Element
-                int j=0;
+                int j = 0;
 
             }
-            int i=0;
+            int i = 0;
         } catch (Exception ex) {
             ex.printStackTrace();
         }
     }
+
     @Test
-    public void  testPng() throws IOException {
+    public void testPng() throws IOException {
         String base64 = DatatypeConverter.printBase64Binary(Files.readAllBytes(Paths.get("/Users/sunwu/IdeaProjects/StudyJava/Object1")));
-        StringBuilder sb=new StringBuilder();
+        StringBuilder sb = new StringBuilder();
         sb.append("<img src=“data:image/png;base64,");
-        sb.append(base64.replaceAll("/[\\r\\n\\s]/g",""));
+        sb.append(base64.replaceAll("/[\\r\\n\\s]/g", ""));
         sb.append("\"/>");
 
 
