@@ -12,30 +12,82 @@
                          xmlns:xlink="http://www.w3.org/1999/xlink"
                          xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0">
     <office:automatic-styles>
-        <style:style style:family="drawing-page" style:name="a380">
+        <style:style style:family="paragraph" style:name="a360">
+            <style:paragraph-properties fo:line-height="100%" fo:text-align="left" style:tab-stop-distance="1in"
+                                        fo:margin-left="0in" fo:margin-right="0in" fo:text-indent="0in"
+                                        fo:margin-top="0in" fo:margin-bottom="0in" style:punctuation-wrap="hanging"
+                                        style:vertical-align="auto" style:writing-mode="lr-tb">
+                <style:tab-stops/>
+            </style:paragraph-properties>
+            <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#000000"
+                                   style:text-line-through-type="none" style:text-line-through-style="none"
+                                   style:text-line-through-width="auto" style:text-line-through-color="font-color"
+                                   style:text-position="0% 100%" fo:font-size="0.25in" style:font-size-asian="0.25in"
+                                   style:font-size-complex="0.25in" fo:letter-spacing="0in" fo:font-style="normal"
+                                   style:font-style-asian="normal" style:font-style-complex="normal"
+                                   style:text-underline-type="none" style:text-underline-style="none"
+                                   style:text-underline-width="auto" style:text-underline-color="font-color"
+                                   fo:font-weight="normal" style:font-weight-asian="normal"
+                                   style:font-weight-complex="normal" style:text-underline-mode="continuous"
+                                   style:letter-kerning="false"/>
+        </style:style>
+        <style:style style:family="graphic" style:name="a361">
+            <style:graphic-properties fo:wrap-option="no-wrap" fo:padding-top="0.05in" fo:padding-bottom="0.05in"
+                                      fo:padding-left="0.1in" fo:padding-right="0.1in"
+                                      draw:textarea-vertical-align="top" draw:textarea-horizontal-align="left"
+                                      draw:fill="none" draw:stroke="none" draw:auto-grow-width="true"
+                                      draw:auto-grow-height="true"/>
+            <style:paragraph-properties style:font-independent-line-spacing="true" style:writing-mode="lr-tb"/>
+        </style:style>
+        <style:style style:family="drawing-page" style:name="a362">
             <style:drawing-page-properties draw:fill="solid" draw:fill-color="#ffffff" draw:opacity="100%"
+                                           presentation:transition-type="manual" presentation:transition-speed="slow"
                                            presentation:visibility="visible" draw:background-size="border"
                                            presentation:background-objects-visible="true"
                                            presentation:background-visible="true" presentation:display-header="false"
                                            presentation:display-footer="false" presentation:display-page-number="false"
                                            presentation:display-date-time="false"/>
         </style:style>
-        <style:style style:family="text" style:name="a381">
+        <style:style style:family="drawing-page" style:name="a356">
+            <style:drawing-page-properties draw:fill="solid" draw:fill-color="#ffffff" draw:opacity="100%"
+                                           presentation:transition-type="manual" presentation:transition-speed="slow"
+                                           presentation:visibility="visible" draw:background-size="border"
+                                           presentation:background-objects-visible="true"
+                                           presentation:background-visible="true" presentation:display-header="false"
+                                           presentation:display-footer="false" presentation:display-page-number="false"
+                                           presentation:display-date-time="false"/>
+        </style:style>
+        <style:style style:family="text" style:name="a357">
             <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#000000"
                                    style:text-line-through-type="none" style:text-line-through-style="none"
                                    style:text-line-through-width="auto" style:text-line-through-color="font-color"
                                    style:text-position="0% 100%" fo:font-family="等线" style:font-family-asian="等线"
                                    style:font-pitch-asian="variable" fo:font-size="0.25in"
                                    style:font-size-asian="0.25in" style:font-size-complex="0.25in"
-                                   fo:letter-spacing="0in" fo:language="en" style:language-asian="zh" fo:country="US"
-                                   style:country-asian="CN" fo:font-style="normal" style:font-style-asian="normal"
-                                   style:font-style-complex="normal" style:text-underline-type="none"
-                                   style:text-underline-style="none" style:text-underline-width="auto"
-                                   style:text-underline-color="font-color" fo:font-weight="normal"
-                                   style:font-weight-asian="normal" style:font-weight-complex="normal"
-                                   style:text-underline-mode="continuous" style:letter-kerning="true"/>
+                                   fo:letter-spacing="0in" fo:language="en" fo:country="US" fo:font-style="normal"
+                                   style:font-style-asian="normal" style:font-style-complex="normal"
+                                   style:text-underline-type="none" style:text-underline-style="none"
+                                   style:text-underline-width="auto" style:text-underline-color="font-color"
+                                   fo:font-weight="normal" style:font-weight-asian="normal"
+                                   style:font-weight-complex="normal" style:text-underline-mode="continuous"
+                                   style:letter-kerning="true"/>
         </style:style>
-        <style:style style:family="paragraph" style:name="a382">
+        <style:style style:family="text" style:name="a363">
+            <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#000000"
+                                   style:text-line-through-type="none" style:text-line-through-style="none"
+                                   style:text-line-through-width="auto" style:text-line-through-color="font-color"
+                                   style:text-position="0% 100%" fo:font-family="等线" style:font-family-asian="等线"
+                                   style:font-pitch-asian="variable" fo:font-size="0.25in"
+                                   style:font-size-asian="0.25in" style:font-size-complex="0.25in"
+                                   fo:letter-spacing="0in" fo:language="en" fo:country="US" fo:font-style="normal"
+                                   style:font-style-asian="normal" style:font-style-complex="normal"
+                                   style:text-underline-type="none" style:text-underline-style="none"
+                                   style:text-underline-width="auto" style:text-underline-color="font-color"
+                                   fo:font-weight="normal" style:font-weight-asian="normal"
+                                   style:font-weight-complex="normal" style:text-underline-mode="continuous"
+                                   style:letter-kerning="true"/>
+        </style:style>
+        <style:style style:family="paragraph" style:name="a358">
             <style:paragraph-properties fo:line-height="100%" fo:text-align="left" style:tab-stop-distance="1in"
                                         fo:margin-left="0in" fo:margin-right="0in" fo:text-indent="0in"
                                         fo:margin-top="0in" fo:margin-bottom="0in" style:punctuation-wrap="hanging"
@@ -54,22 +106,37 @@
                                    style:font-weight-complex="normal" style:text-underline-mode="continuous"
                                    style:letter-kerning="false"/>
         </style:style>
-        <style:style style:family="text" style:name="a383">
+        <style:style style:family="text" style:name="a364">
             <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#000000"
                                    style:text-line-through-type="none" style:text-line-through-style="none"
                                    style:text-line-through-width="auto" style:text-line-through-color="font-color"
                                    style:text-position="0% 100%" fo:font-family="等线" style:font-family-asian="等线"
                                    style:font-pitch-asian="variable" fo:font-size="0.25in"
                                    style:font-size-asian="0.25in" style:font-size-complex="0.25in"
-                                   fo:letter-spacing="0in" fo:language="en" style:language-asian="zh" fo:country="US"
-                                   style:country-asian="CN" fo:font-style="normal" style:font-style-asian="normal"
-                                   style:font-style-complex="normal" style:text-underline-type="none"
-                                   style:text-underline-style="none" style:text-underline-width="auto"
-                                   style:text-underline-color="font-color" fo:font-weight="normal"
-                                   style:font-weight-asian="normal" style:font-weight-complex="normal"
-                                   style:text-underline-mode="continuous" style:letter-kerning="true"/>
+                                   fo:letter-spacing="0in" fo:language="en" fo:country="US" fo:font-style="normal"
+                                   style:font-style-asian="normal" style:font-style-complex="normal"
+                                   style:text-underline-type="none" style:text-underline-style="none"
+                                   style:text-underline-width="auto" style:text-underline-color="font-color"
+                                   fo:font-weight="normal" style:font-weight-asian="normal"
+                                   style:font-weight-complex="normal" style:text-underline-mode="continuous"
+                                   style:letter-kerning="true"/>
         </style:style>
-        <style:style style:family="paragraph" style:name="a384">
+        <style:style style:family="text" style:name="a359">
+            <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#000000"
+                                   style:text-line-through-type="none" style:text-line-through-style="none"
+                                   style:text-line-through-width="auto" style:text-line-through-color="font-color"
+                                   style:text-position="0% 100%" fo:font-family="等线" style:font-family-asian="等线"
+                                   style:font-pitch-asian="variable" fo:font-size="0.25in"
+                                   style:font-size-asian="0.25in" style:font-size-complex="0.25in"
+                                   fo:letter-spacing="0in" fo:language="en" fo:country="US" fo:font-style="normal"
+                                   style:font-style-asian="normal" style:font-style-complex="normal"
+                                   style:text-underline-type="none" style:text-underline-style="none"
+                                   style:text-underline-width="auto" style:text-underline-color="font-color"
+                                   fo:font-weight="normal" style:font-weight-asian="normal"
+                                   style:font-weight-complex="normal" style:text-underline-mode="continuous"
+                                   style:letter-kerning="true"/>
+        </style:style>
+        <style:style style:family="paragraph" style:name="a365">
             <style:paragraph-properties fo:line-height="100%" fo:text-align="left" style:tab-stop-distance="1in"
                                         fo:margin-left="0in" fo:margin-right="0in" fo:text-indent="0in"
                                         fo:margin-top="0in" fo:margin-bottom="0in" style:punctuation-wrap="hanging"
@@ -88,7 +155,41 @@
                                    style:font-weight-complex="normal" style:text-underline-mode="continuous"
                                    style:letter-kerning="false"/>
         </style:style>
-        <style:style style:family="graphic" style:name="a385">
+        <style:style style:family="text" style:name="a366">
+            <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#000000"
+                                   style:text-line-through-type="none" style:text-line-through-style="none"
+                                   style:text-line-through-width="auto" style:text-line-through-color="font-color"
+                                   style:text-position="0% 100%" fo:font-family="等线" style:font-family-asian="等线"
+                                   style:font-pitch-asian="variable" fo:font-size="0.25in"
+                                   style:font-size-asian="0.25in" style:font-size-complex="0.25in"
+                                   fo:letter-spacing="0in" fo:language="en" fo:country="US" fo:font-style="normal"
+                                   style:font-style-asian="normal" style:font-style-complex="normal"
+                                   style:text-underline-type="none" style:text-underline-style="none"
+                                   style:text-underline-width="auto" style:text-underline-color="font-color"
+                                   fo:font-weight="normal" style:font-weight-asian="normal"
+                                   style:font-weight-complex="normal" style:text-underline-mode="continuous"
+                                   style:letter-kerning="true"/>
+        </style:style>
+        <style:style style:family="paragraph" style:name="a367">
+            <style:paragraph-properties fo:line-height="100%" fo:text-align="left" style:tab-stop-distance="1in"
+                                        fo:margin-left="0in" fo:margin-right="0in" fo:text-indent="0in"
+                                        fo:margin-top="0in" fo:margin-bottom="0in" style:punctuation-wrap="hanging"
+                                        style:vertical-align="auto" style:writing-mode="lr-tb">
+                <style:tab-stops/>
+            </style:paragraph-properties>
+            <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#000000"
+                                   style:text-line-through-type="none" style:text-line-through-style="none"
+                                   style:text-line-through-width="auto" style:text-line-through-color="font-color"
+                                   style:text-position="0% 100%" fo:font-size="0.25in" style:font-size-asian="0.25in"
+                                   style:font-size-complex="0.25in" fo:letter-spacing="0in" fo:font-style="normal"
+                                   style:font-style-asian="normal" style:font-style-complex="normal"
+                                   style:text-underline-type="none" style:text-underline-style="none"
+                                   style:text-underline-width="auto" style:text-underline-color="font-color"
+                                   fo:font-weight="normal" style:font-weight-asian="normal"
+                                   style:font-weight-complex="normal" style:text-underline-mode="continuous"
+                                   style:letter-kerning="false"/>
+        </style:style>
+        <style:style style:family="graphic" style:name="a368">
             <style:graphic-properties fo:wrap-option="no-wrap" fo:padding-top="0.05in" fo:padding-bottom="0.05in"
                                       fo:padding-left="0.1in" fo:padding-right="0.1in"
                                       draw:textarea-vertical-align="top" draw:textarea-horizontal-align="left"
@@ -99,16 +200,33 @@
     </office:automatic-styles>
     <office:body>
         <office:presentation>
-            <draw:page draw:name="Slide1" draw:style-name="a380" draw:master-page-name="Master1-Layout1-title-标题幻灯片"
+            <draw:page draw:name="Slide1" draw:style-name="a356" draw:master-page-name="Master1-Layout1-title-标题幻灯片"
                        presentation:presentation-page-layout-name="Master1-PPL1" draw:id="Slide-256">
-                <draw:frame draw:id="id63" draw:style-name="a385" draw:name="文本框 7" svg:x="5.68182in" svg:y="2.13636in"
+                <draw:frame draw:id="id63" draw:style-name="a361" draw:name="文本框 7" svg:x="5.68182in" svg:y="2.13636in"
                             svg:width="1.81828in" svg:height="0.70684in">
                     <draw:text-box>
-                        <text:p text:style-name="a382" text:class-names="" text:cond-style-name="">
-                            <text:span text:style-name="a381" text:class-names="">World-horizon</text:span>
+                        <text:p text:style-name="a358" text:class-names="" text:cond-style-name="">
+                            <text:span text:style-name="a357" text:class-names="">World-horizon</text:span>
                         </text:p>
-                        <text:p text:style-name="a384" text:class-names="" text:cond-style-name="">
-                            <text:span text:style-name="a383" text:class-names=""/>
+                        <text:p text:style-name="a360" text:class-names="" text:cond-style-name="">
+                            <text:span text:style-name="a359" text:class-names=""/>
+                        </text:p>
+                    </draw:text-box>
+                    <svg:title/>
+                    <svg:desc/>
+                </draw:frame>
+            </draw:page>
+            <draw:page draw:name="Slide2" draw:style-name="a362" draw:master-page-name="Master1-Layout1-title-标题幻灯片"
+                       presentation:presentation-page-layout-name="Master1-PPL1" draw:id="Slide-257">
+                <draw:frame draw:id="id64" draw:style-name="a368" draw:name="文本框 7" svg:x="5.68182in" svg:y="2.13636in"
+                            svg:width="1.95151in" svg:height="0.70684in">
+                    <draw:text-box>
+                        <text:p text:style-name="a365" text:class-names="" text:cond-style-name="">
+                            <text:span text:style-name="a363" text:class-names="">World-horizon2</text:span>
+                            <text:span text:style-name="a364" text:class-names=""/>
+                        </text:p>
+                        <text:p text:style-name="a367" text:class-names="" text:cond-style-name="">
+                            <text:span text:style-name="a366" text:class-names=""/>
                         </text:p>
                     </draw:text-box>
                     <svg:title/>
