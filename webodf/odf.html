@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+    <style type="text/css" media="screen, print">
+        body, html, div {
+            padding: 0px;
+            margin: 0px;
+            border: 0px;
+        }
+
+        body, html {
+            height: 100%;
+            text-align: center;
+        }
+
+        html > body {
+            background: black;
+        }
+    </style>
+    <script type="text/javascript">
+
+        /**
+         * 是否是调试模式
+         * @type {boolean}
+         */
+        const debug = true;
+        /**
+         * 开发服务器，用来加载 debug 时的文件，如 webodf.css
+         * @type {string}
+         */
+        const webServer = "http://127.0.0.1:50001";
+        const log = {}
+        log.info = function () {
+            let out = "";
+            for (var i in arguments) {
+                out += `(${typeof arguments[i]})` + arguments[i] + "    "
+            }
+            console.log(`info: ${out}`);
+        }
+    </script>
+    <script src="lib/runtime.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" charset="utf-8">
+        function init() {
+            // if the url has a fragment (#...), try to load the file it represents
+            var location = String(document.location),
+                pos = location.indexOf('#'),
+                odfelement = document.getElementById("odf");
+            document.odfcanvas = new odf.OdfCanvas(odfelement);
+            if (pos === -1 || !window) {
+                return;
+            }
+
+            log.info("location:", location);//location: http://192.168.56.1:8000/odf.html#../demo1.odp
+            log.info("odfelement:", odfelement);
+            location = location.substr(pos + 1);
+            document.odfcanvas.load(location);
+        }
+
+        runtime.loadClass("odf.OdfCanvas", init);
+    </script>
+    <title></title>
+</head>
+
+<body>
+<div id="odf"/>
+</body>
+</html>
